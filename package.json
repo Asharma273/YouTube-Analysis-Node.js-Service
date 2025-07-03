@@ -1,0 +1,23 @@
+{
+  "name": "node_yt",
+  "version": "1.0.0",
+  "description": "Node Youtube Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryan Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.4.1",
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "fetch-blob": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.3",
+    "puppeteer": "^24.11.2",
+    "uuid": "^11.1.0",
+    "ytdl-core": "npm:@distube/ytdl-core@^4.16.12"
+  }
+}
